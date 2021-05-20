@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B34E816742757F1FA06960 /* Pods_Clubhouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E37BB277C4F6B51AF6D0AF /* Pods_Clubhouse.framework */; };
+		38CFF6742632E18400BE86B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CFF6732632E18400BE86B5 /* AppDelegate.swift */; };
+		38CFF6762632E18400BE86B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CFF6752632E18400BE86B5 /* SceneDelegate.swift */; };
+		38CFF6782632E18400BE86B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CFF6772632E18400BE86B5 /* ViewController.swift */; };
+		38CFF67B2632E18400BE86B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CFF6792632E18400BE86B5 /* Main.storyboard */; };
+		38CFF67D2632E18900BE86B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CFF67C2632E18900BE86B5 /* Assets.xcassets */; };
+		38CFF6802632E18900BE86B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CFF67E2632E18900BE86B5 /* LaunchScreen.storyboard */; };
+		38CFF68B2632E18A00BE86B5 /* ClubhouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CFF68A2632E18A00BE86B5 /* ClubhouseTests.swift */; };
+		38CFF6962632E18A00BE86B5 /* ClubhouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CFF6952632E18A00BE86B5 /* ClubhouseUITests.swift */; };
+		A3F95DCACE681C393F97354E /* Pods_ClubhouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A0363F734886ABA0470EEA /* Pods_ClubhouseTests.framework */; };
+		E2A39BC41BFCC1F72EA5BD04 /* Pods_Clubhouse_ClubhouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75709F74DD661F9B7C680A4D /* Pods_Clubhouse_ClubhouseUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38CFF6872632E18A00BE86B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CFF6682632E18400BE86B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38CFF66F2632E18400BE86B5;
+			remoteInfo = Clubhouse;
+		};
+		38CFF6922632E18A00BE86B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CFF6682632E18400BE86B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38CFF66F2632E18400BE86B5;
+			remoteInfo = Clubhouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2703C88F8023F0D06B001EC9 /* Pods-Clubhouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubhouse.debug.xcconfig"; path = "Target Support Files/Pods-Clubhouse/Pods-Clubhouse.debug.xcconfig"; sourceTree = "<group>"; };
+		38CFF6702632E18400BE86B5 /* Clubhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clubhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CFF6732632E18400BE86B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38CFF6752632E18400BE86B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38CFF6772632E18400BE86B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38CFF67A2632E18400BE86B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38CFF67C2632E18900BE86B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38CFF67F2632E18900BE86B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38CFF6812632E18900BE86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CFF6862632E18A00BE86B5 /* ClubhouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubhouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CFF68A2632E18A00BE86B5 /* ClubhouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseTests.swift; sourceTree = "<group>"; };
+		38CFF68C2632E18A00BE86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CFF6912632E18A00BE86B5 /* ClubhouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubhouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CFF6952632E18A00BE86B5 /* ClubhouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseUITests.swift; sourceTree = "<group>"; };
+		38CFF6972632E18A00BE86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E37BB277C4F6B51AF6D0AF /* Pods_Clubhouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clubhouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7214EC4A612B8C402984D864 /* Pods-ClubhouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubhouseTests.release.xcconfig"; path = "Target Support Files/Pods-ClubhouseTests/Pods-ClubhouseTests.release.xcconfig"; sourceTree = "<group>"; };
+		75709F74DD661F9B7C680A4D /* Pods_Clubhouse_ClubhouseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clubhouse_ClubhouseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFAC0FDF310977C4EB0F81E /* Pods-Clubhouse-ClubhouseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubhouse-ClubhouseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Clubhouse-ClubhouseUITests/Pods-Clubhouse-ClubhouseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BF1EB68F6007C012D39195 /* Pods-Clubhouse-ClubhouseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubhouse-ClubhouseUITests.release.xcconfig"; path = "Target Support Files/Pods-Clubhouse-ClubhouseUITests/Pods-Clubhouse-ClubhouseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9432331C17952A64A3ABD30 /* Pods-Clubhouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubhouse.release.xcconfig"; path = "Target Support Files/Pods-Clubhouse/Pods-Clubhouse.release.xcconfig"; sourceTree = "<group>"; };
+		E0A0363F734886ABA0470EEA /* Pods_ClubhouseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubhouseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D08512CF1B013DDB9AA75C /* Pods-ClubhouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubhouseTests.debug.xcconfig"; path = "Target Support Files/Pods-ClubhouseTests/Pods-ClubhouseTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38CFF66D2632E18400BE86B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B34E816742757F1FA06960 /* Pods_Clubhouse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CFF6832632E18A00BE86B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F95DCACE681C393F97354E /* Pods_ClubhouseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CFF68E2632E18A00BE86B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A39BC41BFCC1F72EA5BD04 /* Pods_Clubhouse_ClubhouseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38CFF6672632E18400BE86B5 = {
+			isa = PBXGroup;
+			children = (
+				38CFF6722632E18400BE86B5 /* Clubhouse */,
+				38CFF6892632E18A00BE86B5 /* ClubhouseTests */,
+				38CFF6942632E18A00BE86B5 /* ClubhouseUITests */,
+				38CFF6712632E18400BE86B5 /* Products */,
+				59861CE6A7A32D5C59A4E257 /* Pods */,
+				DDF7EA266CC7922F09C9EAA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38CFF6712632E18400BE86B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38CFF6702632E18400BE86B5 /* Clubhouse.app */,
+				38CFF6862632E18A00BE86B5 /* ClubhouseTests.xctest */,
+				38CFF6912632E18A00BE86B5 /* ClubhouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38CFF6722632E18400BE86B5 /* Clubhouse */ = {
+			isa = PBXGroup;
+			children = (
+				38CFF6732632E18400BE86B5 /* AppDelegate.swift */,
+				38CFF6752632E18400BE86B5 /* SceneDelegate.swift */,
+				38CFF6772632E18400BE86B5 /* ViewController.swift */,
+				38CFF6792632E18400BE86B5 /* Main.storyboard */,
+				38CFF67C2632E18900BE86B5 /* Assets.xcassets */,
+				38CFF67E2632E18900BE86B5 /* LaunchScreen.storyboard */,
+				38CFF6812632E18900BE86B5 /* Info.plist */,
+			);
+			path = Clubhouse;
+			sourceTree = "<group>";
+		};
+		38CFF6892632E18A00BE86B5 /* ClubhouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				38CFF68A2632E18A00BE86B5 /* ClubhouseTests.swift */,
+				38CFF68C2632E18A00BE86B5 /* Info.plist */,
+			);
+			path = ClubhouseTests;
+			sourceTree = "<group>";
+		};
+		38CFF6942632E18A00BE86B5 /* ClubhouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38CFF6952632E18A00BE86B5 /* ClubhouseUITests.swift */,
+				38CFF6972632E18A00BE86B5 /* Info.plist */,
+			);
+			path = ClubhouseUITests;
+			sourceTree = "<group>";
+		};
+		59861CE6A7A32D5C59A4E257 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2703C88F8023F0D06B001EC9 /* Pods-Clubhouse.debug.xcconfig */,
+				D9432331C17952A64A3ABD30 /* Pods-Clubhouse.release.xcconfig */,
+				9EFAC0FDF310977C4EB0F81E /* Pods-Clubhouse-ClubhouseUITests.debug.xcconfig */,
+				A8BF1EB68F6007C012D39195 /* Pods-Clubhouse-ClubhouseUITests.release.xcconfig */,
+				F7D08512CF1B013DDB9AA75C /* Pods-ClubhouseTests.debug.xcconfig */,
+				7214EC4A612B8C402984D864 /* Pods-ClubhouseTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDF7EA266CC7922F09C9EAA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62E37BB277C4F6B51AF6D0AF /* Pods_Clubhouse.framework */,
+				75709F74DD661F9B7C680A4D /* Pods_Clubhouse_ClubhouseUITests.framework */,
+				E0A0363F734886ABA0470EEA /* Pods_ClubhouseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38CFF66F2632E18400BE86B5 /* Clubhouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CFF69A2632E18A00BE86B5 /* Build configuration list for PBXNativeTarget "Clubhouse" */;
+			buildPhases = (
+				D94ED736C86679ADB5D4983C /* [CP] Check Pods Manifest.lock */,
+				38CFF66C2632E18400BE86B5 /* Sources */,
+				38CFF66D2632E18400BE86B5 /* Frameworks */,
+				38CFF66E2632E18400BE86B5 /* Resources */,
+				5CB1A310E321FDF84C7E4AB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clubhouse;
+			productName = Clubhouse;
+			productReference = 38CFF6702632E18400BE86B5 /* Clubhouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38CFF6852632E18A00BE86B5 /* ClubhouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CFF69D2632E18A00BE86B5 /* Build configuration list for PBXNativeTarget "ClubhouseTests" */;
+			buildPhases = (
+				F7F48A817F72E44B77C9B380 /* [CP] Check Pods Manifest.lock */,
+				38CFF6822632E18A00BE86B5 /* Sources */,
+				38CFF6832632E18A00BE86B5 /* Frameworks */,
+				38CFF6842632E18A00BE86B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CFF6882632E18A00BE86B5 /* PBXTargetDependency */,
+			);
+			name = ClubhouseTests;
+			productName = ClubhouseTests;
+			productReference = 38CFF6862632E18A00BE86B5 /* ClubhouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38CFF6902632E18A00BE86B5 /* ClubhouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CFF6A02632E18A00BE86B5 /* Build configuration list for PBXNativeTarget "ClubhouseUITests" */;
+			buildPhases = (
+				908B57C27ECD60B3B90C58CF /* [CP] Check Pods Manifest.lock */,
+				38CFF68D2632E18A00BE86B5 /* Sources */,
+				38CFF68E2632E18A00BE86B5 /* Frameworks */,
+				38CFF68F2632E18A00BE86B5 /* Resources */,
+				73082C1443174A5D228A879A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CFF6932632E18A00BE86B5 /* PBXTargetDependency */,
+			);
+			name = ClubhouseUITests;
+			productName = ClubhouseUITests;
+			productReference = 38CFF6912632E18A00BE86B5 /* ClubhouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38CFF6682632E18400BE86B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					38CFF66F2632E18400BE86B5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					38CFF6852632E18A00BE86B5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 38CFF66F2632E18400BE86B5;
+					};
+					38CFF6902632E18A00BE86B5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 38CFF66F2632E18400BE86B5;
+					};
+				};
+			};
+			buildConfigurationList = 38CFF66B2632E18400BE86B5 /* Build configuration list for PBXProject "Clubhouse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38CFF6672632E18400BE86B5;
+			productRefGroup = 38CFF6712632E18400BE86B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38CFF66F2632E18400BE86B5 /* Clubhouse */,
+				38CFF6852632E18A00BE86B5 /* ClubhouseTests */,
+				38CFF6902632E18A00BE86B5 /* ClubhouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38CFF66E2632E18400BE86B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CFF6802632E18900BE86B5 /* LaunchScreen.storyboard in Resources */,
+				38CFF67D2632E18900BE86B5 /* Assets.xcassets in Resources */,
+				38CFF67B2632E18400BE86B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CFF6842632E18A00BE86B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CFF68F2632E18A00BE86B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CB1A310E321FDF84C7E4AB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clubhouse/Pods-Clubhouse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clubhouse/Pods-Clubhouse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clubhouse/Pods-Clubhouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73082C1443174A5D228A879A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clubhouse-ClubhouseUITests/Pods-Clubhouse-ClubhouseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clubhouse-ClubhouseUITests/Pods-Clubhouse-ClubhouseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clubhouse-ClubhouseUITests/Pods-Clubhouse-ClubhouseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908B57C27ECD60B3B90C58CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clubhouse-ClubhouseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94ED736C86679ADB5D4983C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clubhouse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F48A817F72E44B77C9B380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubhouseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38CFF66C2632E18400BE86B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CFF6782632E18400BE86B5 /* ViewController.swift in Sources */,
+				38CFF6742632E18400BE86B5 /* AppDelegate.swift in Sources */,
+				38CFF6762632E18400BE86B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CFF6822632E18A00BE86B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CFF68B2632E18A00BE86B5 /* ClubhouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CFF68D2632E18A00BE86B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CFF6962632E18A00BE86B5 /* ClubhouseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38CFF6882632E18A00BE86B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38CFF66F2632E18400BE86B5 /* Clubhouse */;
+			targetProxy = 38CFF6872632E18A00BE86B5 /* PBXContainerItemProxy */;
+		};
+		38CFF6932632E18A00BE86B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38CFF66F2632E18400BE86B5 /* Clubhouse */;
+			targetProxy = 38CFF6922632E18A00BE86B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38CFF6792632E18400BE86B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CFF67A2632E18400BE86B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38CFF67E2632E18900BE86B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CFF67F2632E18900BE86B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38CFF6982632E18A00BE86B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38CFF6992632E18A00BE86B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38CFF69B2632E18A00BE86B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2703C88F8023F0D06B001EC9 /* Pods-Clubhouse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D35V84P543;
+				INFOPLIST_FILE = Clubhouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZYK.Clubhouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38CFF69C2632E18A00BE86B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9432331C17952A64A3ABD30 /* Pods-Clubhouse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D35V84P543;
+				INFOPLIST_FILE = Clubhouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZYK.Clubhouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38CFF69E2632E18A00BE86B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D08512CF1B013DDB9AA75C /* Pods-ClubhouseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D35V84P543;
+				INFOPLIST_FILE = ClubhouseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZYK.ClubhouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clubhouse.app/Clubhouse";
+			};
+			name = Debug;
+		};
+		38CFF69F2632E18A00BE86B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7214EC4A612B8C402984D864 /* Pods-ClubhouseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D35V84P543;
+				INFOPLIST_FILE = ClubhouseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZYK.ClubhouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clubhouse.app/Clubhouse";
+			};
+			name = Release;
+		};
+		38CFF6A12632E18A00BE86B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFAC0FDF310977C4EB0F81E /* Pods-Clubhouse-ClubhouseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D35V84P543;
+				INFOPLIST_FILE = ClubhouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZYK.ClubhouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Clubhouse;
+			};
+			name = Debug;
+		};
+		38CFF6A22632E18A00BE86B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BF1EB68F6007C012D39195 /* Pods-Clubhouse-ClubhouseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D35V84P543;
+				INFOPLIST_FILE = ClubhouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZYK.ClubhouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Clubhouse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38CFF66B2632E18400BE86B5 /* Build configuration list for PBXProject "Clubhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CFF6982632E18A00BE86B5 /* Debug */,
+				38CFF6992632E18A00BE86B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CFF69A2632E18A00BE86B5 /* Build configuration list for PBXNativeTarget "Clubhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CFF69B2632E18A00BE86B5 /* Debug */,
+				38CFF69C2632E18A00BE86B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CFF69D2632E18A00BE86B5 /* Build configuration list for PBXNativeTarget "ClubhouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CFF69E2632E18A00BE86B5 /* Debug */,
+				38CFF69F2632E18A00BE86B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CFF6A02632E18A00BE86B5 /* Build configuration list for PBXNativeTarget "ClubhouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CFF6A12632E18A00BE86B5 /* Debug */,
+				38CFF6A22632E18A00BE86B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38CFF6682632E18400BE86B5 /* Project object */;
+}

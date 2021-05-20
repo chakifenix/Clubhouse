@@ -1,0 +1,6 @@
+framework module Pods_ClubhouseTests {
+  umbrella header "Pods-ClubhouseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
